@@ -140,7 +140,7 @@ class _DoubleCircularSliderState extends State<DoubleCircularSlider> {
               widget.selectionColor ?? Color.fromRGBO(255, 255, 255, 0.3),
           handlerColor: widget.handlerColor ?? Colors.white,
           handlerOutterRadius: widget.handlerOutterRadius ?? 12.0,
-          showRoundedCapInSelection: false,
+          showRoundedCapInSelection: true,
           showHandlerOutter: widget.showHandlerOutter ?? true,
           shouldCountLaps: widget.shouldCountLaps ?? false,
         ));
